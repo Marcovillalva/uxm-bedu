@@ -27,7 +27,7 @@ class Layout extends Component {
                 </div>
 
                 <div className="mainCont-section">
-                    <div className="section-one">
+                    <div className="section-one-home">
                         <h1>Transformamos espacios y creamos atmosferas</h1>
                         <p>Transformar un espacio es determinante para 
                             generar una conexión especial con las personas 
@@ -38,6 +38,7 @@ class Layout extends Component {
                 <div className="mainCont-footer">
                         © 2019 Uxmal Stream
                 </div>
+                
             </div>
         );
     }

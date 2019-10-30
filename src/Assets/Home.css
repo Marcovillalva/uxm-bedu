@@ -47,7 +47,7 @@
   padding: 10px;
   background-color: whitesmoke; }
 
-.section-one {
+.section-one-home {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -57,7 +57,7 @@
   background-image: url(./imgs/logo.jpg);
   color: whitesmoke; }
 
-.section-one > p {
+.section-one-home > p {
   width: 500px;
   height: 200px;
   font-size: 30px;
