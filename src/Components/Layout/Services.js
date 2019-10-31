@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import Appmovil from "./../../Assets/imgs/appmovil.png";
+import Copyright from "./../../Assets/imgs/copyright.png";
 
 class Services extends Component {
     render() {
@@ -39,8 +41,10 @@ class Services extends Component {
                                 siguiente nivel.</p>
                             <div className="services-box">
                                 <div className="servicios">
+                                    <img src={ Appmovil } />
                                 </div>
                                 <div className="servicios">
+                                    <img src={ Copyright } />
                                 </div>
                                 <div className="servicios">
                                 </div>

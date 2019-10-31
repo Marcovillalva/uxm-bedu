@@ -32,6 +32,10 @@ class Layout extends Component {
                 <div className="mainCont-section">
                     <div className="section-one-home">
                         <h1>Transformamos espacios y creamos atmosferas</h1>
+                            <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/VUK3E2UIYuA" 
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         <p>Transformar un espacio es determinante para 
                             generar una conexión especial con las personas 
                             y su entorno.</p>

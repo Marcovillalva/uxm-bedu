@@ -4,6 +4,7 @@ import './Assets/Home.scss';
 import './Assets/Services.scss';
 import './Assets/Contacto.scss';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
