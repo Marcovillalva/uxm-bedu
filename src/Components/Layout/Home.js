@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom"
 
 class Layout extends Component {
     render() {
@@ -12,15 +13,17 @@ class Layout extends Component {
 
                     <div className="navbar">
                         <ul>
+
                             <li>
-                                <a>Home</a>
+                                <Link to="/PageHome">Home </Link>
                             </li>
                             <li>
-                                <a>Servicios</a>
+                                <Link to="/PageServicios">Services</Link>
                             </li>
                             <li>
-                                <a>Contacto</a>
+                                <Link to="/PageContacto">Contacto</Link>
                             </li>
+
                         </ul>
                     </div>
 
